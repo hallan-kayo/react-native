@@ -1,0 +1,12 @@
+instalar nodejs: 
+    windows: pelo site https://nodejs.org/en/
+    linux: sudo apt-get install nodejs
+instalar o create-react-native-app
+    npm install -g create-react-native-app
+criar um novo projeto
+    create-react-native-app nomeDoProjeto
+iniciar aplicação
+    entra no diretório do projeto no terminal ou cmd, utilizando (cd diretório)
+    e digita "npm start" sem as aspas
+
+    após esse comando, vai aparecer um qr code na tela. basta instalar o aplicativo do expo no android e ler.
