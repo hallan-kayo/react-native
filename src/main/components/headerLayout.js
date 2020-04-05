@@ -1,17 +1,17 @@
 import React from 'react'
 import {View,Image,Button,StyleSheet,Alert} from 'react-native'
+import Functions from '../../../functions/functions'
 
 function Header(){
 
-    login = () =>{Alert.alert("hello world")}
-
+    login = () => {Functions.login('olá')}
     return(
         <View style = {styles.header}>
             <View style = {styles.headerLeft}>
                 <Image style = {styles.imageHeader} source={require("../../../assets/github.jpg")}/>
             </View>
             <View style = {styles.headerRight}>
-                <Button style = {styles.buttonHeader} title="log in" onPress={this.alerta}/>
+                <Button style = {styles.buttonHeader} title="log in" onPress={this.login}></Button>
             </View>
         </View>
     )
