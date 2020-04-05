@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {StyleSheet,ImageBackground} from 'react-native'
 //smart components
-import Header from './src/main/containers/header'
-import Body from './src/main/containers/body'
-import Footer from './src/main/containers/footer'
+import Header from './main/containers/header'
+import Body from './main/containers/body'
+import Footer from './main/containers/footer'
 
 
 class cursoReactNative extends Component{
@@ -11,7 +11,7 @@ class cursoReactNative extends Component{
   render(){
       return(
 
-        <ImageBackground source={require("./assets/fundo.jpg")} style = {styles.container}>
+        <ImageBackground source={require("../assets/fundo.jpg")} style = {styles.container}>
             <Header/>
             <Body/>
             <Footer/>
